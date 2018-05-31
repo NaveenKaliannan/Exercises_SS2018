@@ -1,0 +1,15 @@
+(1) 7
+(2) 10000000                                   
+(3) 2000
+(4) 0                              
+
+
+(1) Number of argon atoms
+
+(2) Number of MC-steps
+
+(3) Initial heating temperature. Keep it as simulation temperature if you dont want to heat the system initially or dont have any heating temperature.
+
+(4) Simuation Temperature (in K)   
+
+
