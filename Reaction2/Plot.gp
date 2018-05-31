@@ -1,4 +1,5 @@
 
+
 # Setting the terminal
 set encoding utf8 
 set terminal postscript enhanced 
@@ -15,11 +16,10 @@ plot "neb_profile" using 1:2 notitle with line ls 1 lw 2 lc 1
 
 # labels and axis
 set title "Energy profile as a function of replica"
-set xlabel "Replica number"
-set ylabel "Energy (arb. unit.)"
+set xlabel "Replica number (in numbers)"
+set ylabel "Energy (eV)"
 
 # Output files
 set terminal png font arial 14 size 640,480
 set output 'Energyprofile.png'
 replot
-
