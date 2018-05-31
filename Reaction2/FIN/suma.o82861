@@ -1,0 +1,20 @@
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1PSIlogger: Child with rank 1 exited with status 1.
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libc.so.6          00000039D9073338  Unknown               Unknown  Unknown
+libc.so.6          00000039D9074CDE  Unknown               Unknown  Unknown
+cp2k_teo.x         0000000001F95FAA  Unknown               Unknown  Unknown
+cp2k_teo.x         00000000005E192E  Unknown               Unknown  Unknown
+cp2k_teo.x         00000000004282E0  Unknown               Unknown  Unknown
+cp2k_teo.x         000000000055AB23  Unknown               Unknown  Unknown
+cp2k_teo.x         0000000000550D7E  Unknown               Unknown  Unknown
+cp2k_teo.x         00000000004FD1EB  Unknown               Unknown  Unknown
+cp2k_teo.x         000000000040F803  Unknown               Unknown  Unknown
+cp2k_teo.x         000000000040F360  Unknown               Unknown  Unknown
+cp2k_teo.x         000000000040E148  Unknown               Unknown  Unknown
+cp2k_teo.x         000000000040CF02  Unknown               Unknown  Unknown
+libc.so.6          00000039D901D994  Unknown               Unknown  Unknown
+cp2k_teo.x         000000000040CE29  Unknown               Unknown  Unknown
+/var/spool/torque/mom_priv/jobs/82861.ipazia.ipazia.SC: line 23: 25279 Killed                  mpiexec -np 2 /home/pic127/EXEC/cp2k_teo.x -i geo.inp > out
+/var/spool/torque/mom_priv/jobs/82861.ipazia.ipazia.SC: line 24: syntax error near unexpected token `done'
+/var/spool/torque/mom_priv/jobs/82861.ipazia.ipazia.SC: line 24: `done'

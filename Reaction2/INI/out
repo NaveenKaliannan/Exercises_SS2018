@@ -1,0 +1,1689 @@
+
+  **** **** ******  **  PROGRAM STARTED AT               2011-02-01 10:59:02.967
+ ***** ** ***  *** **   PROGRAM STARTED ON                               node047
+ **    ****   ******    PROGRAM STARTED BY                                      
+ ***** **    ** ** **   PROGRAM PROCESS ID                                 25179
+  **** **  *******  **  PROGRAM STARTED IN /mnt/workspc/pic127/CP2KTUTORIAL/EX2/
+                                           INI
+
+ CP2K| version string:                 CP2K version 2.2.86 (Development Version)
+ CP2K| is freely available from                          http://cp2k.berlios.de/
+ CP2K| Program compiled at                          Wed Dec 29 17:45:42 CET 2010
+ CP2K| Program compiled on                                               node082
+ CP2K| Program compiled for                                   Linux-x86-64-intel
+ CP2K| Last CVS entry                                                           
+ CP2K| Input file name                                                   geo.inp
+ 
+ GLOBAL| Force Environment number                                              1
+ GLOBAL| Basis set file name                                           BASIS_SET
+ GLOBAL| Geminal file name                                         BASIS_GEMINAL
+ GLOBAL| Potential file name                                           POTENTIAL
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                            ./s.xyz
+ GLOBAL| Force Environment number                                              2
+ GLOBAL| Basis set file name                                           BASIS_SET
+ GLOBAL| Geminal file name                                         BASIS_GEMINAL
+ GLOBAL| Potential file name                                           POTENTIAL
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                            ./s.xyz
+ GLOBAL| Force Environment number                                              3
+ GLOBAL| Basis set file name                                           BASIS_SET
+ GLOBAL| Geminal file name                                         BASIS_GEMINAL
+ GLOBAL| Potential file name                                           POTENTIAL
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                            ./f.xyz
+ GLOBAL| Method name                                                        CP2K
+ GLOBAL| Project name                                                        INI
+ GLOBAL| Preferred FFT library                                             FFTW3
+ GLOBAL| Run type                                                        GEO_OPT
+ GLOBAL| All-to-all communication in single precision                          F
+ GLOBAL| FFTs using library dependent lengths                                  F
+ GLOBAL| Global print level                                                  LOW
+ GLOBAL| Total number of message passing processes                             2
+ GLOBAL| Number of threads for this process                                    1
+ GLOBAL| This output is from process                                           0
+
+ MEMORY| system memory details [Kb]
+ MEMORY|                        rank 0           min           max       average
+ MEMORY| MemTotal                    0             0             0             0
+ MEMORY| MemFree                     0             0             0             0
+ MEMORY| Buffers                     0             0             0             0
+ MEMORY| Cached                      0             0             0             0
+ MEMORY| Slab                        0             0             0             0
+ MEMORY| SReclaimable                0             0             0             0
+ MEMORY| MemLikelyFree               0             0             0             0
+
+ MIXED_ENV| Number of created MPI groups:                                      2
+ MIXED_ENV| Task to group correspondence:
+  (   0 :    0)  (   1 :    1)
+          ----------------------------------------------------------------------
+ COLVARS| COLVAR INPUT INDEX:        1
+ COLVARS| BOND          >>> ATOMS:                                    49      50
+          ----------------------------------------------------------------------
+ GENERATE|  Preliminary Number of Bends generated:                             0
+ GENERATE|  Number of Bends generated:                                         0
+ GENERATE|  Number of UB generated:                                            0
+ GENERATE|  Preliminary Number of Torsions generated:                          0
+ GENERATE|  Number of Torsions generated:                                      0
+ GENERATE|  Number of Impropers generated:                                     0
+ GENERATE|  Number of 1-4 interactions generated:                              0
+
+ *******************************************************************************
+ ***                     STARTING GEOMETRY OPTIMIZATION                      ***
+ ***                                 L-BFGS                                  ***
+ *******************************************************************************
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.599385615918436
+
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.027466991899473
+
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.607569678221353
+
+
+ --------  Informations at step =     1 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6075696782
+  Real energy change         =        -0.0081840623
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0385168403
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0012042436
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0079871753
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0003202398
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. for gradients        =                   NO
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.608257846134734
+
+
+ --------  Informations at step =     2 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6082578461
+  Real energy change         =        -0.0006881679
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0078944684
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0003295277
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0045597078
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0002014850
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.608897122107351
+
+
+ --------  Informations at step =     3 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6088971221
+  Real energy change         =        -0.0006392760
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0140132851
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0005893799
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0039074467
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0001447242
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.609279806311861
+
+
+ --------  Informations at step =     4 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6092798063
+  Real energy change         =        -0.0003826842
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0133831098
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0006120460
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0055054796
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0001849746
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.609706241597905
+
+
+ --------  Informations at step =     5 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6097062416
+  Real energy change         =        -0.0004264353
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0186934812
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0008486338
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0026530131
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0001415722
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610001668459859
+
+
+ --------  Informations at step =     6 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6100016685
+  Real energy change         =        -0.0002954269
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0155711727
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0007516255
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0032242176
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0001270890
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610188132213352
+
+
+ --------  Informations at step =     7 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6101881322
+  Real energy change         =        -0.0001864638
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0129301749
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0005958473
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0017082759
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000952070
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610286580706202
+
+
+ --------  Informations at step =     8 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6102865807
+  Real energy change         =        -0.0000984485
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0048087006
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0002428657
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0013891138
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000695122
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610385465950003
+
+
+ --------  Informations at step =     9 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6103854660
+  Real energy change         =        -0.0000988852
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0075177405
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0003778656
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0012470448
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000602945
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610454942895672
+
+
+ --------  Informations at step =    10 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6104549429
+  Real energy change         =        -0.0000694769
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0115804137
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0005440164
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0031309812
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0001036691
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610523428381384
+
+
+ --------  Informations at step =    11 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6105234284
+  Real energy change         =        -0.0000684855
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0060918607
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0003088670
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0012868526
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000580391
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610564194828726
+
+
+ --------  Informations at step =    12 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6105641948
+  Real energy change         =        -0.0000407664
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0043822851
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0002239962
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0009497144
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000427968
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610596876521754
+
+
+ --------  Informations at step =    13 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6105968765
+  Real energy change         =        -0.0000326817
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0059450945
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0002780366
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0009785353
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000400195
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610612171477555
+
+
+ --------  Informations at step =    14 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6106121715
+  Real energy change         =        -0.0000152950
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0089274707
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0003672208
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0021277039
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000712703
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610636383429437
+
+
+ --------  Informations at step =    15 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6106363834
+  Real energy change         =        -0.0000242120
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0016362552
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000757268
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0007481988
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000282990
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610647950072575
+
+
+ --------  Informations at step =    16 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6106479501
+  Real energy change         =        -0.0000115666
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0019414141
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000836753
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0004180690
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000241176
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610663163682716
+
+
+ --------  Informations at step =    17 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6106631637
+  Real energy change         =        -0.0000152136
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0053068623
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001839133
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0006974210
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000277304
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610680885602733
+
+
+ --------  Informations at step =    18 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6106808856
+  Real energy change         =        -0.0000177219
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0091669785
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0003075538
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0014286785
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000487393
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610701038720322
+
+
+ --------  Informations at step =    19 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6107010387
+  Real energy change         =        -0.0000201531
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0108332655
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0003506507
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0007882402
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000323074
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610715109267858
+
+
+ --------  Informations at step =    20 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6107151093
+  Real energy change         =        -0.0000140705
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0040239542
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001411088
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0004730965
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000252052
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610739338711141
+
+
+ --------  Informations at step =    21 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6107393387
+  Real energy change         =        -0.0000242294
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0104042522
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0003735571
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0013675455
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000365795
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610755130984899
+
+
+ --------  Informations at step =    22 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6107551310
+  Real energy change         =        -0.0000157923
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0134984523
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0004698549
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0021579440
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000568767
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610776457069278
+
+
+ --------  Informations at step =    23 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6107764571
+  Real energy change         =        -0.0000213261
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0044643639
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001739244
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0008096001
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000351670
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610803523144341
+
+
+ --------  Informations at step =    24 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108035231
+  Real energy change         =        -0.0000270661
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0126133469
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0004634295
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0005987928
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000233514
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610814291545466
+
+
+ --------  Informations at step =    25 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108142915
+  Real energy change         =        -0.0000107684
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0066450079
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0002426851
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0005858628
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000211826
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610811709619270
+
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610821803297767
+
+
+ --------  Informations at step =    26 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108218033
+  Real energy change         =        -0.0000075118
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0070083108
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0002609185
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0006278307
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000295753
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610829199948171
+
+
+ --------  Informations at step =    27 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108291999
+  Real energy change         =        -0.0000073967
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0048728625
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001878189
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0003265293
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000138071
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610831695062870
+
+
+ --------  Informations at step =    28 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108316951
+  Real energy change         =        -0.0000024951
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0015889076
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000476016
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0003195745
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000121580
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610837114539208
+
+
+ --------  Informations at step =    29 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108371145
+  Real energy change         =        -0.0000054195
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0047601113
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001337019
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0003479522
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000153108
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610840232891860
+
+
+ --------  Informations at step =    30 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108402329
+  Real energy change         =        -0.0000031184
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0066721728
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001908075
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0008802776
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000310311
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610844873036172
+
+
+ --------  Informations at step =    31 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108448730
+  Real energy change         =        -0.0000046401
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0014153498
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000475418
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0003886173
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000180450
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610851368585941
+
+
+ --------  Informations at step =    32 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108513686
+  Real energy change         =        -0.0000064955
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0057649007
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001650424
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0002768992
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000132970
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610855475654262
+
+
+ --------  Informations at step =    33 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108554757
+  Real energy change         =        -0.0000041071
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0056887943
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001553661
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0003723760
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000151072
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610857402313627
+
+
+ --------  Informations at step =    34 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108574023
+  Real energy change         =        -0.0000019267
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0162748387
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0004313758
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0012033449
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000443562
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610865288705781
+
+
+ --------  Informations at step =    35 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108652887
+  Real energy change         =        -0.0000078864
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0025501746
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000735013
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0003233213
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000136478
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610867618057455
+
+
+ --------  Informations at step =    36 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108676181
+  Real energy change         =        -0.0000023294
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0006273723
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000308495
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0002657791
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000104961
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610870557585031
+
+
+ --------  Informations at step =    37 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108705576
+  Real energy change         =        -0.0000029395
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0036902137
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001012534
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0002698765
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000114222
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610873346575545
+
+
+ --------  Informations at step =    38 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108733466
+  Real energy change         =        -0.0000027890
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0081825210
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0002170544
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0006272624
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000254199
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610876654689037
+
+
+ --------  Informations at step =    39 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108766547
+  Real energy change         =        -0.0000033081
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0058201374
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001545709
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0002649489
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000118866
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610878475022901
+
+
+ --------  Informations at step =    40 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108784750
+  Real energy change         =        -0.0000018203
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0031063328
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0000874775
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001937146
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000079567
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610879873023578
+
+
+ --------  Informations at step =    41 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108798730
+  Real energy change         =        -0.0000013980
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0033350502
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0000978372
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001621017
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000083861
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610880886073915
+
+
+ --------  Informations at step =    42 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108808861
+  Real energy change         =        -0.0000010131
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0063798426
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001879672
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0008437879
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000241561
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610883126658109
+
+
+ --------  Informations at step =    43 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108831267
+  Real energy change         =        -0.0000022406
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0004840873
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000227150
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0002047599
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000096519
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610884117091700
+
+
+ --------  Informations at step =    44 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108841171
+  Real energy change         =        -0.0000009904
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0011299382
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000445693
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001385492
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000071768
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610885384394010
+
+
+ --------  Informations at step =    45 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108853844
+  Real energy change         =        -0.0000012673
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0023684656
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000818637
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0002368405
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000085044
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610886531330038
+
+
+ --------  Informations at step =    46 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108865313
+  Real energy change         =        -0.0000011469
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0039191431
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001304222
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0004013166
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000125099
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610887247615551
+
+
+ --------  Informations at step =    47 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108872476
+  Real energy change         =        -0.0000007163
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0046626833
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001521702
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0005461932
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000141273
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610887976311687
+
+
+ --------  Informations at step =    48 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108879763
+  Real energy change         =        -0.0000007287
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0012586519
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000434078
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001613545
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000053273
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610888192095786
+
+
+ --------  Informations at step =    49 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108881921
+  Real energy change         =        -0.0000002158
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0003284960
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000114041
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001471428
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000046024
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610888858159342
+
+
+ --------  Informations at step =    50 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108888582
+  Real energy change         =        -0.0000006661
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0017117789
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000419245
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0002265198
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000070511
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610889798951575
+
+
+ --------  Informations at step =    51 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108897990
+  Real energy change         =        -0.0000009408
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0033748144
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0000898217
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0002735156
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000090013
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610889703239536
+
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610890509790693
+
+
+ --------  Informations at step =    52 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108905098
+  Real energy change         =        -0.0000007108
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0031907197
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0000796443
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0003065956
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000107756
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610891342669561
+
+
+ --------  Informations at step =    53 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108913427
+  Real energy change         =        -0.0000008329
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0048581529
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001317554
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001584467
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000067556
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610892435973255
+
+
+ --------  Informations at step =    54 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108924360
+  Real energy change         =        -0.0000010933
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0044631432
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001227692
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001177601
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000058017
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610892775093362
+
+
+ --------  Informations at step =    55 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108927751
+  Real energy change         =        -0.0000003391
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0074465229
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0002016358
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0006700612
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000178852
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610894004115153
+
+
+ --------  Informations at step =    56 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108940041
+  Real energy change         =        -0.0000012290
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0005167999
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000223749
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001465605
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000068463
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610894852978390
+
+
+ --------  Informations at step =    57 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108948530
+  Real energy change         =        -0.0000008489
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0005181801
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000255251
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001341889
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000057544
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610895992846736
+
+
+ --------  Informations at step =    58 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108959928
+  Real energy change         =        -0.0000011399
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0019767990
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000681608
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001826556
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000071145
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610896602335060
+
+
+ --------  Informations at step =    59 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108966023
+  Real energy change         =        -0.0000006095
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0060164863
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001708980
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0005211471
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000134324
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610897775941794
+
+
+ --------  Informations at step =    60 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108977759
+  Real energy change         =        -0.0000011736
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0045256518
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                   NO
+  RMS step size              =         0.0001305555
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0001509523
+  Conv. limit for gradients  =         0.0001000000
+  Conv. for gradients        =                   NO
+  RMS gradient               =         0.0000065564
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610898472443751
+
+
+ --------  Informations at step =    61 ------------
+  Optimization Method        =                LBFGS
+  Total Energy               =      -532.6108984724
+  Real energy change         =        -0.0000006965
+  Decrease in energy         =                  YES
+  Used time                  =                0.000
+
+  Convergence check :
+  Max. step size             =         0.0019519221
+  Conv. limit for step size  =         0.0030000000
+  Convergence in step size   =                  YES
+  RMS step size              =         0.0000571000
+  Conv. limit for RMS step   =         0.0015000000
+  Convergence in RMS step    =                  YES
+  Max. gradient              =         0.0000943090
+  Conv. limit for gradients  =         0.0001000000
+  Conv. in gradients         =                  YES
+  RMS gradient               =         0.0000049715
+  Conv. limit for RMS grad.  =         0.0003000000
+  Conv. in RMS gradients     =                  YES
+ ---------------------------------------------------
+
+ *******************************************************************************
+ ***                    GEOMETRY OPTIMIZATION COMPLETED                      ***
+ *******************************************************************************
+
+                    Reevaluating energy at the minimum 
+
+ ENERGY| Total FORCE_EVAL ( MIXED ) energy (a.u.):          -532.610898472443068
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                         MESSAGE PASSING PERFORMANCE                         -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+
+ ROUTINE             CALLS  TOT TIME [s]  AVE VOLUME [Bytes]  PERFORMANCE [MB/s]
+ MP_Bcast             1033         0.006             157758.            25463.09
+ MP_Allreduce         1608         0.014               7805.              896.50
+ MP_Sync                66        32.700
+ MP_comm_split           1         0.000
+ -------------------------------------------------------------------------------
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                           R E F E R E N C E S                               -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ 
+ CP2K version 2.2.86 (Development Version), the CP2K developers group (2010).
+ CP2K is freely available from http://cp2k.berlios.de/ .
+
+ Frigo, M; Johnson, SG. 
+ PROCEEDINGS OF THE IEEE, 93 (2), 216-231 (2005). 
+ The design and implementation of FFTW3.
+ http://dx.doi.org/10.1109/JPROC.2004.840301
+
+
+ BYRD, RH; LU, PH; NOCEDAL, J; ZHU, CY. 
+ SIAM JOURNAL ON SCIENTIFIC COMPUTING, 16 (5), 1190-1208 (1995). 
+ A LIMITED MEMORY ALGORITHM FOR BOUND CONSTRAINED OPTIMIZATION.
+ http://dx.doi.org/10.1137/0916069
+
+
+ FOILES, SM; BASKES, MI; DAW, MS. 
+ PHYSICAL REVIEW B, 33 (12), 7983-7991 (1986). 
+ EMBEDDED-ATOM-METHOD FUNCTIONS FOR THE FCC METALS CU, AG, AU, NI, PD,
+ PT, AND THEIR ALLOYS.
+ http://dx.doi.org/10.1103/PhysRevB.33.7983
+
+
+ -------------------------------------------------------------------------------
+ -                                                                             -
+ -                                T I M I N G                                  -
+ -                                                                             -
+ -------------------------------------------------------------------------------
+ SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
+                                              AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
+ CP2K                                 1  1.0    0.173    0.338   43.576   43.594
+ cp_geo_opt                           1  2.0    0.000    0.000   43.075   43.092
+ geoopt_lbfgs                         1  3.0    0.018    0.035   43.075   43.092
+ cp_opt_gopt_step                    61  4.0    4.213    5.425   42.885   42.886
+ cp_eval_at                          66  5.0   16.429   32.785   36.712   36.731
+ fist_force_control                  66  6.0    0.011    0.022    1.913    3.825
+ write_restart                       62  5.0    1.157    2.304    2.129    3.358
+ force_nonbond                       66  7.0    1.409    2.818    1.409    2.818
+ update_input                        62  6.0    0.002    0.002    0.972    1.054
+ update_subsys                       62  7.0    0.004    0.004    0.970    1.052
+ section_coord_val_set               62  8.0    0.964    1.046    0.964    1.046
+ -------------------------------------------------------------------------------
+
+  **** **** ******  **  PROGRAM ENDED AT                 2011-02-01 10:59:46.616
+ ***** ** ***  *** **   PROGRAM RAN ON                                   node047
+ **    ****   ******    PROGRAM RAN BY                                          
+ ***** **    ** ** **   PROGRAM PROCESS ID                                 25179
+  **** **  *******  **  PROGRAM STOPPED IN /mnt/workspc/pic127/CP2KTUTORIAL/EX2/
+                                           INI

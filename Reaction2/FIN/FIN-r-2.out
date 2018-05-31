@@ -1,0 +1,3322 @@
+ 
+ GENERATE|  Preliminary Number of Bonds generated:                             0
+ GENERATE|  Achieved consistency in connectivity generation.
+ GENERATE|  Number of Bonds generated:                                         0
+ GENERATE|  Preliminary Number of Bends generated:                             0
+ GENERATE|  Number of Bends generated:                                         0
+ GENERATE|  Number of UB generated:                                            0
+ GENERATE|  Preliminary Number of Torsions generated:                          0
+ GENERATE|  Number of Torsions generated:                                      0
+ GENERATE|  Number of Impropers generated:                                     0
+ GENERATE|  Number of 1-4 interactions generated:                              0
+
+
+              #####   #####        # #     # ######  ######   #####  
+             #     # #     #      #  ##    # #     # #     # #     # 
+             #     # #           #   # #   # #     # #     # #     # 
+             #     #  #####     #    #  #  # #     # #     # #     # 
+             #   # #       #   #     #   # # #     # #     # #     # 
+             #    #  #     #  #      #    ## #     # #     # #     # 
+              #### #  #####  #       #     # ######  ######   #####  
+                                                                     
+                              T. Laino and J. Hutter                 
+                                                                     
+                                                                     
+
+ 
+ SEMIEMPIRICAL|                             Coulomb Integral cutoff/taper values
+ SEMIEMPIRICAL| Cutoff [a.u.]                                             37.795
+ SEMIEMPIRICAL| Taper  [a.u.]                                             37.795
+ SEMIEMPIRICAL| Range  [a.u.]                                              0.000
+ 
+ 
+ SEMIEMPIRICAL|                            Exchange Integral cutoff/taper values
+ SEMIEMPIRICAL| Cutoff [a.u.]                                             37.795
+ SEMIEMPIRICAL| Taper  [a.u.]                                             37.795
+ SEMIEMPIRICAL| Range  [a.u.]                                              0.000
+ 
+
+
+ SCF PARAMETERS         Density guess:                                   RESTART
+                        --------------------------------------------------------
+                        max_scf:                                              20
+                        max_scf_history:                                       0
+                        max_diis:                                              4
+                        --------------------------------------------------------
+                        eps_scf:                                        1.00E-06
+                        eps_scf_history:                                0.00E+00
+                        eps_diis:                                       1.00E-01
+                        eps_eigval:                                     1.00E-05
+                        --------------------------------------------------------
+                        level_shift [a.u.]:                                 0.00
+                        --------------------------------------------------------
+                        Outer loop SCF in use 
+                        No variables optimised in outer loop
+                        eps_scf                                         1.00E-06
+                        max_scf                                               10
+                        No outer loop optimization
+                        step_size                                       5.00E-01
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.06889866      -133.4028873362 -1.33E+02
+     2 OT DIIS     0.15E+00    0.0     0.06686700      -140.7770012786 -7.37E+00
+     3 OT DIIS     0.15E+00    0.0     0.05306946      -144.4492451248 -3.67E+00
+     4 OT DIIS     0.15E+00    0.0     0.04205822      -150.3979723178 -5.95E+00
+     5 OT DIIS     0.15E+00    0.0     0.03587585      -153.9163883133 -3.52E+00
+     6 OT DIIS     0.15E+00    0.0     0.03864451      -155.9361032002 -2.02E+00
+     7 OT DIIS     0.15E+00    0.0     0.03821404      -156.2632720412 -3.27E-01
+     8 OT SD       0.15E+00    0.0     0.03833459      -159.2129813097 -2.95E+00
+     9 OT SD       0.15E+00    0.0     0.03197917      -161.8822645741 -2.67E+00
+    10 OT SD       0.15E+00    0.0     0.02803909      -163.8043468041 -1.92E+00
+    11 OT SD       0.15E+00    0.0     0.02507832      -165.3009417542 -1.50E+00
+    12 OT DIIS     0.15E+00    0.0     0.02263105      -166.5046266253 -1.20E+00
+    13 OT SD       0.15E+00    0.0     0.02407139      -168.1090671087 -1.60E+00
+    14 OT DIIS     0.15E+00    0.0     0.01887375      -169.1455717698 -1.04E+00
+    15 OT DIIS     0.15E+00    0.0     0.00881334      -170.7956474321 -1.65E+00
+    16 OT DIIS     0.15E+00    0.0     0.00703090      -170.9846034296 -1.89E-01
+    17 OT SD       0.15E+00    0.0     0.01179993      -170.7781832042  2.06E-01
+    18 OT DIIS     0.15E+00    0.0     0.00903609      -171.0245894450 -2.46E-01
+    19 OT DIIS     0.15E+00    0.0     0.00790258      -171.1762048884 -1.52E-01
+    20 OT SD       0.15E+00    0.0     0.00390317      -171.4569825723 -2.81E-01
+
+  *** SCF run NOT converged ***
+
+
+  Core-core repulsion energy [eV]:                          41610.33148124910076
+  Core Hamiltonian energy [eV]:                             -7400.05571339414018
+  Two-electron integral energy [eV]:                       -77751.71507103247859
+  Electronic energy [eV]:                                  -46275.91324891037948
+
+  Total energy [eV]:                                        -4665.58176766127872
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               428.44385803047157
+
+  outer SCF iter =    1 RMS gradient =   0.39E-02 energy =       -171.4569825723
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.2     0.00711303      -171.4863983664 -2.94E-02
+     2 OT DIIS     0.15E+00    0.0     0.00581936      -171.5778431602 -9.14E-02
+     3 OT DIIS     0.15E+00    0.0     0.00460670      -171.7144720604 -1.37E-01
+     4 OT DIIS     0.15E+00    0.0     0.00369765      -171.8348500341 -1.20E-01
+     5 OT DIIS     0.15E+00    0.0     0.00172971      -171.9396346482 -1.05E-01
+     6 OT DIIS     0.15E+00    0.0     0.00195837      -171.9353712813  4.26E-03
+     7 OT DIIS     0.15E+00    0.0     0.00105463      -171.9573656063 -2.20E-02
+     8 OT DIIS     0.15E+00    0.0     0.00079552      -171.9620881522 -4.72E-03
+     9 OT DIIS     0.15E+00    0.0     0.00053786      -171.9661511799 -4.06E-03
+    10 OT DIIS     0.15E+00    0.0     0.00032187      -171.9679160597 -1.76E-03
+    11 OT DIIS     0.15E+00    0.0     0.00022082      -171.9685531014 -6.37E-04
+    12 OT DIIS     0.15E+00    0.0     0.00018097      -171.9688623932 -3.09E-04
+    13 OT DIIS     0.15E+00    0.0     0.00014546      -171.9690986435 -2.36E-04
+    14 OT DIIS     0.15E+00    0.0     0.00011442      -171.9692919709 -1.93E-04
+    15 OT DIIS     0.15E+00    0.0     0.00009153      -171.9694340901 -1.42E-04
+    16 OT DIIS     0.15E+00    0.0     0.00007631      -171.9695248801 -9.08E-05
+    17 OT DIIS     0.15E+00    0.0     0.00006667      -171.9695779990 -5.31E-05
+    18 OT DIIS     0.15E+00    0.0     0.00005163      -171.9696514890 -7.35E-05
+    19 OT DIIS     0.15E+00    0.0     0.00004677      -171.9696736319 -2.21E-05
+    20 OT DIIS     0.15E+00    0.0     0.00003878      -171.9697051562 -3.15E-05
+
+  *** SCF run NOT converged ***
+
+
+  Core-core repulsion energy [eV]:                          41610.33148124910076
+  Core Hamiltonian energy [eV]:                             -7411.95910051192004
+  Two-electron integral energy [eV]:                       -77755.81207888238714
+  Electronic energy [eV]:                                  -46289.86513995311543
+
+  Total energy [eV]:                                        -4679.53365870401831
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               106.70558180265934
+
+  outer SCF iter =    2 RMS gradient =   0.39E-04 energy =       -171.9697051562
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00003779      -171.9697300511 -2.49E-05
+     2 OT DIIS     0.15E+00    0.0     0.00003531      -171.9697328292 -2.78E-06
+     3 OT DIIS     0.15E+00    0.0     0.00002872      -171.9697428846 -1.01E-05
+     4 OT DIIS     0.15E+00    0.0     0.00002283      -171.9697536442 -1.08E-05
+     5 OT DIIS     0.15E+00    0.0     0.00001713      -171.9697625172 -8.87E-06
+     6 OT DIIS     0.15E+00    0.0     0.00001276      -171.9697675639 -5.05E-06
+     7 OT DIIS     0.15E+00    0.0     0.00000997      -171.9697700471 -2.48E-06
+     8 OT DIIS     0.15E+00    0.0     0.00000745      -171.9697716034 -1.56E-06
+     9 OT DIIS     0.15E+00    0.0     0.00000576      -171.9697723638 -7.60E-07
+    10 OT DIIS     0.15E+00    0.0     0.00000374      -171.9697729170 -5.53E-07
+    11 OT DIIS     0.15E+00    0.0     0.00000244      -171.9697731025 -1.85E-07
+    12 OT DIIS     0.15E+00    0.0     0.00000162      -171.9697731632 -6.07E-08
+    13 OT DIIS     0.15E+00    0.0     0.00000127      -171.9697731783 -1.52E-08
+    14 OT DIIS     0.15E+00    0.0     0.00000105      -171.9697731840 -5.71E-09
+    15 OT DIIS     0.15E+00    0.0     0.00000085      -171.9697731890 -4.94E-09
+
+  *** SCF run converged in    15 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41610.33148124910076
+  Core Hamiltonian energy [eV]:                             -7411.96192428905761
+  Two-electron integral energy [eV]:                       -77755.81013386060658
+  Electronic energy [eV]:                                  -46289.86699121935817
+
+  Total energy [eV]:                                        -4679.53550997026014
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               106.66289058556214
+
+  outer SCF iter =    3 RMS gradient =   0.85E-06 energy =       -171.9697731890
+  outer SCF loop converged in   3 iterations or   55 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.969773195565949
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00841790      -171.3336596888 -1.71E+02
+     2 OT DIIS     0.15E+00    0.0     0.00545189      -171.4503341682 -1.17E-01
+     3 OT DIIS     0.15E+00    0.0     0.00225090      -171.5400976659 -8.98E-02
+     4 OT DIIS     0.15E+00    0.0     0.00113258      -171.5621285645 -2.20E-02
+     5 OT DIIS     0.15E+00    0.0     0.00058289      -171.5693774651 -7.25E-03
+     6 OT DIIS     0.15E+00    0.0     0.00033885      -171.5710635212 -1.69E-03
+     7 OT DIIS     0.15E+00    0.0     0.00020089      -171.5717090305 -6.46E-04
+     8 OT DIIS     0.15E+00    0.0     0.00013088      -171.5719336447 -2.25E-04
+     9 OT DIIS     0.15E+00    0.0     0.00008110      -171.5720854265 -1.52E-04
+    10 OT DIIS     0.15E+00    0.0     0.00005377      -171.5721218247 -3.64E-05
+    11 OT DIIS     0.15E+00    0.0     0.00002553      -171.5721461989 -2.44E-05
+    12 OT DIIS     0.15E+00    0.0     0.00001477      -171.5721494542 -3.26E-06
+    13 OT DIIS     0.15E+00    0.0     0.00000700      -171.5721505802 -1.13E-06
+    14 OT DIIS     0.15E+00    0.0     0.00000446      -171.5721507544 -1.74E-07
+    15 OT DIIS     0.15E+00    0.0     0.00000205      -171.5721508540 -9.97E-08
+    16 OT DIIS     0.15E+00    0.0     0.00000172      -171.5721508669 -1.28E-08
+    17 OT DIIS     0.15E+00    0.0     0.00000129      -171.5721508831 -1.62E-08
+    18 OT DIIS     0.15E+00    0.0     0.00000101      -171.5721508925 -9.42E-09
+    19 OT DIIS     0.15E+00    0.0     0.00000064      -171.5721508998 -7.26E-09
+
+  *** SCF run converged in    19 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41758.43040640718391
+  Core Hamiltonian energy [eV]:                             -7412.48397674500757
+  Two-electron integral energy [eV]:                       -78029.32417378148239
+  Electronic energy [eV]:                                  -46427.14606363575149
+
+  Total energy [eV]:                                        -4668.71565722856485
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               356.17464203829246
+
+  outer SCF iter =    1 RMS gradient =   0.64E-06 energy =       -171.5721508998
+  outer SCF loop converged in   1 iterations or   19 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.572150902172325
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00780458      -171.7763922825 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00494842      -171.8759542283 -9.96E-02
+     3 OT DIIS     0.15E+00    0.0     0.00188597      -171.9472380161 -7.13E-02
+     4 OT DIIS     0.15E+00    0.0     0.00101951      -171.9619292263 -1.47E-02
+     5 OT DIIS     0.15E+00    0.0     0.00060807      -171.9682362489 -6.31E-03
+     6 OT DIIS     0.15E+00    0.0     0.00034518      -171.9706487778 -2.41E-03
+     7 OT DIIS     0.15E+00    0.0     0.00017049      -171.9714179822 -7.69E-04
+     8 OT DIIS     0.15E+00    0.0     0.00009499      -171.9715815308 -1.64E-04
+     9 OT DIIS     0.15E+00    0.0     0.00006652      -171.9716321779 -5.06E-05
+    10 OT DIIS     0.15E+00    0.0     0.00005556      -171.9716560418 -2.39E-05
+    11 OT DIIS     0.15E+00    0.0     0.00003976      -171.9716867054 -3.07E-05
+    12 OT DIIS     0.15E+00    0.0     0.00002621      -171.9717055189 -1.88E-05
+    13 OT DIIS     0.15E+00    0.0     0.00001948      -171.9717113030 -5.78E-06
+    14 OT DIIS     0.15E+00    0.0     0.00000709      -171.9717156416 -4.34E-06
+    15 OT DIIS     0.15E+00    0.0     0.00000485      -171.9717158911 -2.50E-07
+    16 OT DIIS     0.15E+00    0.0     0.00000367      -171.9717159870 -9.58E-08
+    17 OT DIIS     0.15E+00    0.0     0.00000214      -171.9717160781 -9.11E-08
+    18 OT DIIS     0.15E+00    0.0     0.00000170      -171.9717160994 -2.13E-08
+    19 OT DIIS     0.15E+00    0.0     0.00000135      -171.9717161151 -1.57E-08
+    20 OT DIIS     0.15E+00    0.0     0.00000081      -171.9717161307 -1.56E-08
+
+  *** SCF run converged in    20 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41618.54702400624228
+  Core Hamiltonian energy [eV]:                             -7411.71421537892638
+  Two-electron integral energy [eV]:                       -77772.84237746008148
+  Electronic energy [eV]:                                  -46298.13540410896530
+
+  Total energy [eV]:                                        -4679.58838010272575
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               105.44367627036404
+
+  outer SCF iter =    1 RMS gradient =   0.81E-06 energy =       -171.9717161307
+  outer SCF loop converged in   1 iterations or   20 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.971716133451082
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00009147      -171.9720382676 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00005270      -171.9720514051 -1.31E-05
+     3 OT DIIS     0.15E+00    0.0     0.00002066      -171.9720585405 -7.14E-06
+     4 OT DIIS     0.15E+00    0.0     0.00001203      -171.9720601597 -1.62E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000866      -171.9720609597 -8.00E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000577      -171.9720616332 -6.74E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000357      -171.9720619918 -3.59E-07
+     8 OT DIIS     0.15E+00    0.0     0.00000203      -171.9720621252 -1.33E-07
+     9 OT DIIS     0.15E+00    0.0     0.00000144      -171.9720621528 -2.76E-08
+    10 OT DIIS     0.15E+00    0.0     0.00000080      -171.9720621694 -1.66E-08
+
+  *** SCF run converged in    10 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41621.80484734413039
+  Core Hamiltonian energy [eV]:                             -7411.45788139454908
+  Two-electron integral energy [eV]:                       -77779.88952448715281
+  Electronic energy [eV]:                                  -46301.40264363812457
+
+  Total energy [eV]:                                        -4679.59779629399418
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               105.22653372401777
+
+  outer SCF iter =    1 RMS gradient =   0.80E-06 energy =       -171.9720621694
+  outer SCF loop converged in   1 iterations or   10 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.972062173986615
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00020995      -171.9724977632 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00012639      -171.9725680692 -7.03E-05
+     3 OT DIIS     0.15E+00    0.0     0.00005179      -171.9726114827 -4.34E-05
+     4 OT DIIS     0.15E+00    0.0     0.00002692      -171.9726219023 -1.04E-05
+     5 OT DIIS     0.15E+00    0.0     0.00001861      -171.9726255623 -3.66E-06
+     6 OT DIIS     0.15E+00    0.0     0.00001288      -171.9726282280 -2.67E-06
+     7 OT DIIS     0.15E+00    0.0     0.00000801      -171.9726299505 -1.72E-06
+     8 OT DIIS     0.15E+00    0.0     0.00000480      -171.9726306195 -6.69E-07
+     9 OT DIIS     0.15E+00    0.0     0.00000363      -171.9726307658 -1.46E-07
+    10 OT DIIS     0.15E+00    0.0     0.00000211      -171.9726308833 -1.18E-07
+    11 OT DIIS     0.15E+00    0.0     0.00000109      -171.9726309216 -3.83E-08
+    12 OT DIIS     0.15E+00    0.0     0.00000057      -171.9726309300 -8.33E-09
+
+  *** SCF run converged in    12 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41630.44352735235589
+  Core Hamiltonian energy [eV]:                             -7410.85173914191273
+  Two-electron integral energy [eV]:                       -77798.41012253522058
+  Electronic energy [eV]:                                  -46310.05680040951847
+
+  Total energy [eV]:                                        -4679.61327305716713
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.86963105830310
+
+  outer SCF iter =    1 RMS gradient =   0.57E-06 energy =       -171.9726309300
+  outer SCF loop converged in   1 iterations or   12 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.972630931597678
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00033104      -171.9726755193 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00020333      -171.9728522543 -1.77E-04
+     3 OT DIIS     0.15E+00    0.0     0.00007274      -171.9729670621 -1.15E-04
+     4 OT DIIS     0.15E+00    0.0     0.00003546      -171.9729865208 -1.95E-05
+     5 OT DIIS     0.15E+00    0.0     0.00002304      -171.9729925535 -6.03E-06
+     6 OT DIIS     0.15E+00    0.0     0.00001649      -171.9729961257 -3.57E-06
+     7 OT DIIS     0.15E+00    0.0     0.00001116      -171.9729987237 -2.60E-06
+     8 OT DIIS     0.15E+00    0.0     0.00000641      -171.9730001763 -1.45E-06
+     9 OT DIIS     0.15E+00    0.0     0.00000458      -171.9730004786 -3.02E-07
+    10 OT DIIS     0.15E+00    0.0     0.00000243      -171.9730006656 -1.87E-07
+    11 OT DIIS     0.15E+00    0.0     0.00000122      -171.9730007092 -4.35E-08
+    12 OT DIIS     0.15E+00    0.0     0.00000068      -171.9730007183 -9.10E-09
+
+  *** SCF run converged in    12 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41641.02530302710511
+  Core Hamiltonian energy [eV]:                             -7410.69073456165188
+  Two-electron integral energy [eV]:                       -77819.91580794780748
+  Electronic energy [eV]:                                  -46320.64863853556017
+
+  Total energy [eV]:                                        -4679.62333550845324
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.63758540072551
+
+  outer SCF iter =    1 RMS gradient =   0.68E-06 energy =       -171.9730007183
+  outer SCF loop converged in   1 iterations or   12 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973000720469827
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00016797      -171.9732939466 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00010101      -171.9733390113 -4.51E-05
+     3 OT DIIS     0.15E+00    0.0     0.00003673      -171.9733665299 -2.75E-05
+     4 OT DIIS     0.15E+00    0.0     0.00001417      -171.9733712867 -4.76E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000703      -171.9733720929 -8.06E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000444      -171.9733723355 -2.43E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000303      -171.9733724649 -1.29E-07
+     8 OT DIIS     0.15E+00    0.0     0.00000199      -171.9733725461 -8.12E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000155      -171.9733725719 -2.59E-08
+    10 OT DIIS     0.15E+00    0.0     0.00000091      -171.9733725965 -2.46E-08
+
+  *** SCF run converged in    10 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41646.77537075646251
+  Core Hamiltonian energy [eV]:                             -7410.71160510535083
+  Two-electron integral energy [eV]:                       -77831.39444096329680
+  Electronic energy [eV]:                                  -46326.40882558700105
+
+  Total energy [eV]:                                        -4679.63345483054036
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.40422827121668
+
+  outer SCF iter =    1 RMS gradient =   0.91E-06 energy =       -171.9733725965
+  outer SCF loop converged in   1 iterations or   10 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973372604484666
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00018382      -171.9735498947 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00010927      -171.9736035651 -5.37E-05
+     3 OT DIIS     0.15E+00    0.0     0.00004085      -171.9736353058 -3.17E-05
+     4 OT DIIS     0.15E+00    0.0     0.00001444      -171.9736411514 -5.85E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000569      -171.9736419281 -7.77E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000267      -171.9736420583 -1.30E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000142      -171.9736420915 -3.32E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000080      -171.9736421027 -1.12E-08
+
+  *** SCF run converged in     8 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41656.83100699732313
+  Core Hamiltonian energy [eV]:                             -7411.12257230830619
+  Two-electron integral energy [eV]:                       -77850.69844631184242
+  Electronic energy [eV]:                                  -46336.47179546422558
+
+  Total energy [eV]:                                        -4679.64078846689972
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.23511058577824
+
+  outer SCF iter =    1 RMS gradient =   0.80E-06 energy =       -171.9736421027
+  outer SCF loop converged in   1 iterations or    8 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973642105448562
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00007581      -171.9737127497 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00004504      -171.9737218817 -9.13E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001678      -171.9737272718 -5.39E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000686      -171.9737282732 -1.00E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000334      -171.9737284687 -1.95E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000177      -171.9737285240 -5.53E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000102      -171.9737285417 -1.77E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000059      -171.9737285485 -6.74E-09
+
+  *** SCF run converged in     8 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41666.70659792263177
+  Core Hamiltonian energy [eV]:                             -7411.51137985378045
+  Two-electron integral energy [eV]:                       -77869.67671768866421
+  Electronic energy [eV]:                                  -46346.34973869811074
+
+  Total energy [eV]:                                        -4679.64314077548352
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.18086505686703
+
+  outer SCF iter =    1 RMS gradient =   0.59E-06 energy =       -171.9737285485
+  outer SCF loop converged in   1 iterations or    8 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973728550252417
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00009218      -171.9737947037 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00005312      -171.9738080446 -1.33E-05
+     3 OT DIIS     0.15E+00    0.0     0.00001976      -171.9738152656 -7.22E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000852      -171.9738166392 -1.37E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000446      -171.9738169511 -3.12E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000265      -171.9738170565 -1.05E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000174      -171.9738171014 -4.49E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000104      -171.9738171259 -2.45E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000067      -171.9738171336 -7.63E-09
+
+  *** SCF run converged in     9 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41684.91099225042854
+  Core Hamiltonian energy [eV]:                             -7412.12825183205132
+  Two-electron integral energy [eV]:                       -77904.85658343444811
+  Electronic energy [eV]:                                  -46364.55654354927537
+
+  Total energy [eV]:                                        -4679.64555129884138
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.12527706326303
+
+  outer SCF iter =    1 RMS gradient =   0.67E-06 energy =       -171.9738171336
+  outer SCF loop converged in   1 iterations or    9 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973817137059314
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00005249      -171.9738675997 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00003078      -171.9738719554 -4.36E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001160      -171.9738744346 -2.48E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000544      -171.9738749182 -4.84E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000298      -171.9738750539 -1.36E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000179      -171.9738751045 -5.06E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000120      -171.9738751254 -2.09E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000083      -171.9738751367 -1.13E-08
+
+  *** SCF run converged in     8 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41696.78043318225536
+  Core Hamiltonian energy [eV]:                             -7412.42737669467169
+  Two-electron integral energy [eV]:                       -77928.00037226339919
+  Electronic energy [eV]:                                  -46376.42756282637129
+
+  Total energy [eV]:                                        -4679.64712964411865
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.08887955361554
+
+  outer SCF iter =    1 RMS gradient =   0.83E-06 energy =       -171.9738751367
+  outer SCF loop converged in   1 iterations or    8 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973875141693497
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00007050      -171.9739076007 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00004099      -171.9739154279 -7.83E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001533      -171.9739197710 -4.34E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000636      -171.9739205915 -8.20E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000303      -171.9739207580 -1.66E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000175      -171.9739208020 -4.40E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000124      -171.9739208193 -1.73E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000089      -171.9739208312 -1.19E-08
+
+  *** SCF run converged in     8 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41710.78377646119770
+  Core Hamiltonian energy [eV]:                             -7412.66990670644464
+  Two-electron integral energy [eV]:                       -77955.52448562080099
+  Electronic energy [eV]:                                  -46390.43214951684058
+
+  Total energy [eV]:                                        -4679.64837305564379
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.06020580041053
+
+  outer SCF iter =    1 RMS gradient =   0.89E-06 energy =       -171.9739208312
+  outer SCF loop converged in   1 iterations or    8 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973920837502874
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00006532      -171.9739233674 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00003829      -171.9739301099 -6.74E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001527      -171.9739339606 -3.85E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000860      -171.9739348636 -9.03E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000546      -171.9739352777 -4.14E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000340      -171.9739355020 -2.24E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000224      -171.9739355969 -9.49E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000149      -171.9739356409 -4.40E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000111      -171.9739356571 -1.63E-08
+    10 OT DIIS     0.15E+00    0.0     0.00000070      -171.9739356688 -1.17E-08
+
+  *** SCF run converged in    10 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41716.72684026246134
+  Core Hamiltonian energy [eV]:                             -7412.74796111860542
+  Two-electron integral energy [eV]:                       -77967.25531190220499
+  Electronic energy [eV]:                                  -46396.37561706970882
+
+  Total energy [eV]:                                        -4679.64877680724840
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.05089506647587
+
+  outer SCF iter =    1 RMS gradient =   0.70E-06 energy =       -171.9739356688
+  outer SCF loop converged in   1 iterations or   10 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973935673392361
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00003293      -171.9739449179 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001929      -171.9739466346 -1.72E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000674      -171.9739476025 -9.68E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000343      -171.9739477664 -1.64E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000205      -171.9739478260 -5.97E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000113      -171.9739478549 -2.89E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000068      -171.9739478638 -8.88E-09
+
+  *** SCF run converged in     7 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41715.37479874234123
+  Core Hamiltonian energy [eV]:                             -7412.69632478498443
+  Two-electron integral energy [eV]:                       -77964.65516521460086
+  Electronic energy [eV]:                                  -46395.02390739228576
+
+  Total energy [eV]:                                        -4679.64910864994363
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.04324259153012
+
+  outer SCF iter =    1 RMS gradient =   0.68E-06 energy =       -171.9739478638
+  outer SCF loop converged in   1 iterations or    7 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973947867008746
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002307      -171.9739534767 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001357      -171.9739543187 -8.42E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000522      -171.9739548032 -4.84E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000251      -171.9739549041 -1.01E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000139      -171.9739549344 -3.03E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000078      -171.9739549461 -1.17E-08
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41714.10971839918784
+  Core Hamiltonian energy [eV]:                             -7412.64288020922049
+  Two-electron integral energy [eV]:                       -77962.23227911489084
+  Electronic energy [eV]:                                  -46393.75901976666501
+
+  Total energy [eV]:                                        -4679.64930136748262
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03879841914475
+
+  outer SCF iter =    1 RMS gradient =   0.78E-06 energy =       -171.9739549461
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973954949985909
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00001951      -171.9739594063 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001229      -171.9739600241 -6.18E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000523      -171.9739604607 -4.37E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000225      -171.9739605694 -1.09E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000113      -171.9739605922 -2.28E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000073      -171.9739605987 -6.54E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41713.86395886818354
+  Core Hamiltonian energy [eV]:                             -7412.60885547034013
+  Two-electron integral energy [eV]:                       -77961.80911716308037
+  Electronic energy [eV]:                                  -46393.51341405187850
+
+  Total energy [eV]:                                        -4679.64945518369132
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03525133282739
+
+  outer SCF iter =    1 RMS gradient =   0.73E-06 energy =       -171.9739605987
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973960602015268
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00004962      -171.9739494694 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00003005      -171.9739534036 -3.93E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001303      -171.9739558876 -2.48E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000719      -171.9739565918 -7.04E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000459      -171.9739568855 -2.94E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000320      -171.9739570376 -1.52E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000213      -171.9739571332 -9.56E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000120      -171.9739571833 -5.01E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000080      -171.9739571945 -1.12E-08
+
+  *** SCF run converged in     9 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41714.00662122195354
+  Core Hamiltonian energy [eV]:                             -7412.60253788712362
+  Two-electron integral energy [eV]:                       -77962.10689177102176
+  Electronic energy [eV]:                                  -46393.65598377263814
+
+  Total energy [eV]:                                        -4679.64936255068551
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03738750085569
+
+  outer SCF iter =    1 RMS gradient =   0.80E-06 energy =       -171.9739571945
+  outer SCF loop converged in   1 iterations or    9 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973957199388451
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002759      -171.9739599445 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001673      -171.9739611613 -1.22E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000730      -171.9739619332 -7.72E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000406      -171.9739621558 -2.23E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000259      -171.9739622502 -9.44E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000179      -171.9739622987 -4.85E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000119      -171.9739623282 -2.95E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000068      -171.9739623436 -1.54E-08
+
+  *** SCF run converged in     8 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41713.92749264747545
+  Core Hamiltonian energy [eV]:                             -7412.60624056671259
+  Two-electron integral energy [eV]:                       -77961.94150949156028
+  Electronic energy [eV]:                                  -46393.57699531249091
+
+  Total energy [eV]:                                        -4679.64950266501819
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03415638732602
+
+  outer SCF iter =    1 RMS gradient =   0.68E-06 energy =       -171.9739623436
+  outer SCF loop converged in   1 iterations or    8 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973962347182805
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00001751      -171.9739633771 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001123      -171.9739638788 -5.02E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000483      -171.9739642544 -3.76E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000209      -171.9739643506 -9.62E-08
+     5 OT DIIS     0.15E+00    0.0     0.00000091      -171.9739643706 -2.00E-08
+
+  *** SCF run converged in     5 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41714.35214330868621
+  Core Hamiltonian energy [eV]:                             -7412.60593727236483
+  Two-electron integral energy [eV]:                       -77962.79152771648660
+  Electronic energy [eV]:                                  -46394.00170113060449
+
+  Total energy [eV]:                                        -4679.64955782192283
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03288443879909
+
+  outer SCF iter =    1 RMS gradient =   0.91E-06 energy =       -171.9739643706
+  outer SCF loop converged in   1 iterations or    5 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973964374456955
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00001111      -171.9739647669 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00000744      -171.9739649722 -2.05E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000352      -171.9739651488 -1.77E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000169      -171.9739652056 -5.67E-08
+     5 OT DIIS     0.15E+00    0.0     0.00000096      -171.9739652202 -1.47E-08
+
+  *** SCF run converged in     5 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41714.64965448033763
+  Core Hamiltonian energy [eV]:                             -7412.61572601937496
+  Two-electron integral energy [eV]:                       -77963.36701880555484
+  Electronic energy [eV]:                                  -46394.29923542214965
+
+  Total energy [eV]:                                        -4679.64958094181384
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03235128140264
+
+  outer SCF iter =    1 RMS gradient =   0.96E-06 energy =       -171.9739652202
+  outer SCF loop converged in   1 iterations or    5 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973965225695110
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00003283      -171.9739625323 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00002293      -171.9739643578 -1.83E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001056      -171.9739661571 -1.80E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000396      -171.9739666591 -5.02E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000176      -171.9739667256 -6.66E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000098      -171.9739667394 -1.38E-08
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41715.32925669135875
+  Core Hamiltonian energy [eV]:                             -7412.64430553340662
+  Two-electron integral energy [eV]:                       -77964.66914687940152
+  Electronic energy [eV]:                                  -46394.97887897311011
+
+  Total energy [eV]:                                        -4679.64962228174863
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03139795978068
+
+  outer SCF iter =    1 RMS gradient =   0.98E-06 energy =       -171.9739667394
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973966744444624
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00004977      -171.9739577829 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00003547      -171.9739620209 -4.24E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001589      -171.9739665154 -4.49E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000587      -171.9739676570 -1.14E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000274      -171.9739678020 -1.45E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000167      -171.9739678363 -3.43E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000126      -171.9739678518 -1.55E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000090      -171.9739678658 -1.40E-08
+
+  *** SCF run converged in     8 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41715.73427288325911
+  Core Hamiltonian energy [eV]:                             -7412.66164999396460
+  Two-electron integral energy [eV]:                       -77965.44455164190731
+  Electronic energy [eV]:                                  -46395.38392581491644
+
+  Total energy [eV]:                                        -4679.64965293165733
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03069115602797
+
+  outer SCF iter =    1 RMS gradient =   0.90E-06 energy =       -171.9739678658
+  outer SCF loop converged in   1 iterations or    8 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973967873333322
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00008920      -171.9739343256 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00006374      -171.9739479527 -1.36E-05
+     3 OT DIIS     0.15E+00    0.0     0.00002849      -171.9739625502 -1.46E-05
+     4 OT DIIS     0.15E+00    0.0     0.00001014      -171.9739662258 -3.68E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000453      -171.9739666498 -4.24E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000261      -171.9739667404 -9.06E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000192      -171.9739667760 -3.57E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000141      -171.9739668045 -2.85E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000102      -171.9739668219 -1.74E-08
+    10 OT DIIS     0.15E+00    0.0     0.00000055      -171.9739668342 -1.23E-08
+
+  *** SCF run converged in    10 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41715.98062639818090
+  Core Hamiltonian energy [eV]:                             -7412.69815595221280
+  Two-electron integral energy [eV]:                       -77965.86419060944172
+  Electronic energy [eV]:                                  -46395.63025125693093
+
+  Total energy [eV]:                                        -4679.64962485875276
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.03133853263714
+
+  outer SCF iter =    1 RMS gradient =   0.55E-06 energy =       -171.9739668342
+  outer SCF loop converged in   1 iterations or   10 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973966836914087
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00004934      -171.9739622621 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00003523      -171.9739664300 -4.17E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001590      -171.9739708810 -4.45E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000554      -171.9739720344 -1.15E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000227      -171.9739721593 -1.25E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000115      -171.9739721807 -2.13E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000078      -171.9739721868 -6.14E-09
+
+  *** SCF run converged in     7 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41715.17460249376018
+  Core Hamiltonian energy [eV]:                             -7412.66491938084619
+  Two-electron integral energy [eV]:                       -77964.31890724912228
+  Electronic energy [eV]:                                  -46394.82437300540914
+
+  Total energy [eV]:                                        -4679.64977051165170
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.02797969674148
+
+  outer SCF iter =    1 RMS gradient =   0.78E-06 energy =       -171.9739721868
+  outer SCF loop converged in   1 iterations or    7 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973972190694440
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00008169      -171.9739520716 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00005904      -171.9739635554 -1.15E-05
+     3 OT DIIS     0.15E+00    0.0     0.00002697      -171.9739763472 -1.28E-05
+     4 OT DIIS     0.15E+00    0.0     0.00000954      -171.9739797222 -3.37E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000446      -171.9739800975 -3.75E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000273      -171.9739801872 -8.97E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000205      -171.9739802281 -4.09E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000146      -171.9739802638 -3.56E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000103      -171.9739802831 -1.93E-08
+    10 OT DIIS     0.15E+00    0.0     0.00000058      -171.9739802951 -1.20E-08
+
+  *** SCF run converged in    10 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41713.15375012227742
+  Core Hamiltonian energy [eV]:                             -7412.59789453463327
+  Two-electron integral energy [eV]:                       -77960.41169347384130
+  Electronic energy [eV]:                                  -46392.80374127155665
+
+  Total energy [eV]:                                        -4679.64999114927286
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.02289167192158
+
+  outer SCF iter =    1 RMS gradient =   0.58E-06 energy =       -171.9739802951
+  outer SCF loop converged in   1 iterations or   10 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973980298107335
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00011341      -171.9739343228 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00008288      -171.9739565751 -2.23E-05
+     3 OT DIIS     0.15E+00    0.0     0.00003701      -171.9739824591 -2.59E-05
+     4 OT DIIS     0.15E+00    0.0     0.00001235      -171.9739887797 -6.32E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000527      -171.9739893805 -6.01E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000275      -171.9739894962 -1.16E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000194      -171.9739895320 -3.58E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000145      -171.9739895572 -2.52E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000110      -171.9739895729 -1.57E-08
+    10 OT DIIS     0.15E+00    0.0     0.00000065      -171.9739895870 -1.41E-08
+
+  *** SCF run converged in    10 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41710.15496144077770
+  Core Hamiltonian energy [eV]:                             -7412.52001204597582
+  Two-electron integral energy [eV]:                       -77954.57038677777746
+  Electronic energy [eV]:                                  -46389.80520543486637
+
+  Total energy [eV]:                                        -4679.65024399409049
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.01706093143891
+
+  outer SCF iter =    1 RMS gradient =   0.65E-06 energy =       -171.9739895870
+  outer SCF loop converged in   1 iterations or   10 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973989591382406
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00026771      -171.9736729157 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00019328      -171.9737962475 -1.23E-04
+     3 OT DIIS     0.15E+00    0.0     0.00008634      -171.9739335316 -1.37E-04
+     4 OT DIIS     0.15E+00    0.0     0.00002911      -171.9739676820 -3.42E-05
+     5 OT DIIS     0.15E+00    0.0     0.00001158      -171.9739710586 -3.38E-06
+     6 OT DIIS     0.15E+00    0.0     0.00000556      -171.9739715966 -5.38E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000366      -171.9739717348 -1.38E-07
+     8 OT DIIS     0.15E+00    0.0     0.00000272      -171.9739718143 -7.95E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000214      -171.9739718618 -4.75E-08
+    10 OT DIIS     0.15E+00    0.0     0.00000135      -171.9739719115 -4.97E-08
+    11 OT DIIS     0.15E+00    0.0     0.00000072      -171.9739719316 -2.01E-08
+
+  *** SCF run converged in    11 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41703.83576786657795
+  Core Hamiltonian energy [eV]:                             -7412.39227406123882
+  Two-electron integral energy [eV]:                       -77942.18651474508806
+  Electronic energy [eV]:                                  -46383.48553143378376
+
+  Total energy [eV]:                                        -4679.64976356720399
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.02813983951644
+
+  outer SCF iter =    1 RMS gradient =   0.72E-06 energy =       -171.9739719316
+  outer SCF loop converged in   1 iterations or   11 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973971936067073
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00015266      -171.9738987651 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00011015      -171.9739388586 -4.01E-05
+     3 OT DIIS     0.15E+00    0.0     0.00004922      -171.9739833809 -4.45E-05
+     4 OT DIIS     0.15E+00    0.0     0.00001660      -171.9739944640 -1.11E-05
+     5 OT DIIS     0.15E+00    0.0     0.00000660      -171.9739955606 -1.10E-06
+     6 OT DIIS     0.15E+00    0.0     0.00000315      -171.9739957349 -1.74E-07
+     7 OT DIIS     0.15E+00    0.0     0.00000206      -171.9739957789 -4.40E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000152      -171.9739958038 -2.50E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000120      -171.9739958185 -1.47E-08
+    10 OT DIIS     0.15E+00    0.0     0.00000076      -171.9739958339 -1.54E-08
+
+  *** SCF run converged in    10 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41707.46437918562879
+  Core Hamiltonian energy [eV]:                             -7412.46675613260140
+  Two-electron integral energy [eV]:                       -77949.29607406939613
+  Electronic energy [eV]:                                  -46387.11479316729674
+
+  Total energy [eV]:                                        -4679.65041398167159
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.01314092438291
+
+  outer SCF iter =    1 RMS gradient =   0.76E-06 energy =       -171.9739958339
+  outer SCF loop converged in   1 iterations or   10 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.973995840168982
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00008501      -171.9739764704 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00006150      -171.9739889220 -1.25E-05
+     3 OT DIIS     0.15E+00    0.0     0.00002706      -171.9740029020 -1.40E-05
+     4 OT DIIS     0.15E+00    0.0     0.00000914      -171.9740062289 -3.33E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000358      -171.9740065596 -3.31E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000157      -171.9740066101 -5.05E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000093      -171.9740066204 -1.03E-08
+
+  *** SCF run converged in     7 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41705.50695040212304
+  Core Hamiltonian energy [eV]:                             -7412.44426625839606
+  Two-electron integral energy [eV]:                       -77945.42678328334296
+  Electronic energy [eV]:                                  -46385.15765790007572
+
+  Total energy [eV]:                                        -4679.65070749794631
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.00637227775998
+
+  outer SCF iter =    1 RMS gradient =   0.93E-06 energy =       -171.9740066204
+  outer SCF loop converged in   1 iterations or    7 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974006625087668
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002479      -171.9740083158 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001624      -171.9740093275 -1.01E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000749      -171.9740101347 -8.07E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000299      -171.9740103741 -2.39E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000122      -171.9740104129 -3.88E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000057      -171.9740104193 -6.38E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41705.52520153771184
+  Core Hamiltonian energy [eV]:                             -7412.46683186607424
+  Two-electron integral energy [eV]:                       -77945.41836108520511
+  Electronic energy [eV]:                                  -46385.17601240867953
+
+  Total energy [eV]:                                        -4679.65081087096405
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.00398843915769
+
+  outer SCF iter =    1 RMS gradient =   0.57E-06 energy =       -171.9740104193
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974010420755576
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00001540      -171.9740120806 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00000989      -171.9740124665 -3.86E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000495      -171.9740127549 -2.88E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000212      -171.9740128629 -1.08E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000106      -171.9740128837 -2.09E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000067      -171.9740128893 -5.63E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41705.85316711640917
+  Core Hamiltonian energy [eV]:                             -7412.48632479199841
+  Two-electron integral energy [eV]:                       -77946.03544081730070
+  Electronic energy [eV]:                                  -46385.50404520064330
+
+  Total energy [eV]:                                        -4679.65087808423959
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               104.00243846407220
+
+  outer SCF iter =    1 RMS gradient =   0.67E-06 energy =       -171.9740128893
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974012892052770
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002723      -171.9740144117 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001837      -171.9740156462 -1.23E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000889      -171.9740167214 -1.08E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000336      -171.9740170723 -3.51E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000133      -171.9740171201 -4.78E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000059      -171.9740171274 -7.26E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41706.83715092884086
+  Core Hamiltonian energy [eV]:                             -7412.51440387338971
+  Two-electron integral energy [eV]:                       -77947.94748092484951
+  Electronic energy [eV]:                                  -46386.48814433580992
+
+  Total energy [eV]:                                        -4679.65099340696815
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99977905855695
+
+  outer SCF iter =    1 RMS gradient =   0.59E-06 energy =       -171.9740171274
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974017128856303
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00003346      -171.9740181126 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00002279      -171.9740199884 -1.88E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001047      -171.9740216850 -1.70E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000411      -171.9740221674 -4.82E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000165      -171.9740222405 -7.31E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000075      -171.9740222519 -1.13E-08
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41708.87965125164919
+  Core Hamiltonian energy [eV]:                             -7412.55066419712966
+  Two-electron integral energy [eV]:                       -77951.96023981148028
+  Electronic energy [eV]:                                  -46388.53078410286253
+
+  Total energy [eV]:                                        -4679.65113285122061
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99656339746289
+
+  outer SCF iter =    1 RMS gradient =   0.75E-06 energy =       -171.9740222519
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974022254306192
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002038      -171.9740243208 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001355      -171.9740250090 -6.88E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000630      -171.9740255865 -5.77E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000250      -171.9740257614 -1.75E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000102      -171.9740257890 -2.76E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000053      -171.9740257934 -4.39E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41709.72959383039415
+  Core Hamiltonian energy [eV]:                             -7412.55654481410147
+  Two-electron integral energy [eV]:                       -77953.64855647415970
+  Electronic energy [eV]:                                  -46389.38082305118587
+
+  Total energy [eV]:                                        -4679.65122922078990
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99434106222378
+
+  outer SCF iter =    1 RMS gradient =   0.53E-06 energy =       -171.9740257934
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974025794717136
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002602      -171.9740263372 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001749      -171.9740274606 -1.12E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000894      -171.9740284251 -9.64E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000322      -171.9740287951 -3.70E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000126      -171.9740288390 -4.38E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000055      -171.9740288453 -6.32E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41710.77996999469178
+  Core Hamiltonian energy [eV]:                             -7412.56551207917801
+  Two-electron integral energy [eV]:                       -77955.73154036529013
+  Electronic energy [eV]:                                  -46390.43128226182307
+
+  Total energy [eV]:                                        -4679.65131226713038
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99242596795204
+
+  outer SCF iter =    1 RMS gradient =   0.55E-06 energy =       -171.9740288453
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974028846545707
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002811      -171.9740287023 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001949      -171.9740300331 -1.33E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000970      -171.9740312989 -1.27E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000335      -171.9740317369 -4.38E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000130      -171.9740317831 -4.61E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000055      -171.9740317896 -6.56E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41711.96433674091531
+  Core Hamiltonian energy [eV]:                             -7412.59313692600062
+  Two-electron integral energy [eV]:                       -77958.04518440329412
+  Electronic energy [eV]:                                  -46391.61572912764677
+
+  Total energy [eV]:                                        -4679.65139238673237
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99057836590460
+
+  outer SCF iter =    1 RMS gradient =   0.55E-06 energy =       -171.9740317896
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974031790827212
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00005048      -171.9740251192 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00003528      -171.9740294301 -4.31E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001712      -171.9740336580 -4.23E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000585      -171.9740350121 -1.35E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000224      -171.9740351504 -1.38E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000090      -171.9740351697 -1.93E-08
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41713.49886748105928
+  Core Hamiltonian energy [eV]:                             -7412.64475684228546
+  Two-electron integral energy [eV]:                       -77961.01119000719336
+  Electronic energy [eV]:                                  -46393.15035184587759
+
+  Total energy [eV]:                                        -4679.65148436481559
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.98845730074802
+
+  outer SCF iter =    1 RMS gradient =   0.90E-06 energy =       -171.9740351697
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974035172931963
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00001772      -171.9740359350 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001180      -171.9740364565 -5.21E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000523      -171.9740368966 -4.40E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000209      -171.9740370139 -1.17E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000089      -171.9740370331 -1.92E-08
+
+  *** SCF run converged in     5 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41713.52849824494479
+  Core Hamiltonian energy [eV]:                             -7412.65403735567725
+  Two-electron integral energy [eV]:                       -77961.05199191726570
+  Electronic energy [eV]:                                  -46393.18003331431100
+
+  Total energy [eV]:                                        -4679.65153506937077
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.98728802583827
+
+  outer SCF iter =    1 RMS gradient =   0.89E-06 energy =       -171.9740370331
+  outer SCF loop converged in   1 iterations or    5 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974037036622803
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00001826      -171.9740364668 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001215      -171.9740370185 -5.52E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000592      -171.9740374792 -4.61E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000224      -171.9740376340 -1.55E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000090      -171.9740376553 -2.13E-08
+
+  *** SCF run converged in     5 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41713.15486999000132
+  Core Hamiltonian energy [eV]:                             -7412.65551057482116
+  Two-electron integral energy [eV]:                       -77960.30182283181057
+  Electronic energy [eV]:                                  -46392.80642199073191
+
+  Total energy [eV]:                                        -4679.65155200072968
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.98689757939354
+
+  outer SCF iter =    1 RMS gradient =   0.90E-06 energy =       -171.9740376553
+  outer SCF loop converged in   1 iterations or    5 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974037658729230
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002609      -171.9740350238 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001842      -171.9740361817 -1.16E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000854      -171.9740373636 -1.18E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000294      -171.9740376921 -3.29E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000113      -171.9740377265 -3.43E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000045      -171.9740377314 -4.98E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41712.78589567097515
+  Core Hamiltonian energy [eV]:                             -7412.63809389841845
+  Two-electron integral energy [eV]:                       -77959.59871168945392
+  Electronic energy [eV]:                                  -46392.43744974314177
+
+  Total energy [eV]:                                        -4679.65155407216935
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.98684981084743
+
+  outer SCF iter =    1 RMS gradient =   0.45E-06 energy =       -171.9740377314
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974037732266652
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00006530      -171.9740152557 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00004573      -171.9740224958 -7.24E-06
+     3 OT DIIS     0.15E+00    0.0     0.00002036      -171.9740297220 -7.23E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000773      -171.9740315713 -1.85E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000348      -171.9740318267 -2.55E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000215      -171.9740318813 -5.46E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000161      -171.9740319071 -2.58E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000112      -171.9740319301 -2.30E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000078      -171.9740319417 -1.16E-08
+
+  *** SCF run converged in     9 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41712.29312675353867
+  Core Hamiltonian energy [eV]:                             -7412.59418834213375
+  Two-electron integral energy [eV]:                       -77958.70066987464088
+  Electronic energy [eV]:                                  -46391.94452327945328
+
+  Total energy [eV]:                                        -4679.65139652591188
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99048291413449
+
+  outer SCF iter =    1 RMS gradient =   0.78E-06 energy =       -171.9740319417
+  outer SCF loop converged in   1 iterations or    9 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974031948393531
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00003357      -171.9740321431 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00002350      -171.9740340563 -1.91E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001045      -171.9740359635 -1.91E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000393      -171.9740364493 -4.86E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000170      -171.9740365146 -6.53E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000099      -171.9740365273 -1.27E-08
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41712.54775151631475
+  Core Hamiltonian energy [eV]:                             -7412.61686941952757
+  Two-electron integral energy [eV]:                       -77959.16480680405220
+  Electronic energy [eV]:                                  -46392.19927282155550
+
+  Total energy [eV]:                                        -4679.65152130523984
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.98760543426343
+
+  outer SCF iter =    1 RMS gradient =   0.99E-06 energy =       -171.9740365273
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974036532487162
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002638      -171.9740332325 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001883      -171.9740344238 -1.19E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000830      -171.9740356963 -1.27E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000287      -171.9740360049 -3.09E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000109      -171.9740360379 -3.30E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000044      -171.9740360425 -4.60E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41712.31833606110013
+  Core Hamiltonian energy [eV]:                             -7412.58751897712045
+  Two-electron integral energy [eV]:                       -77958.76465039417963
+  Electronic energy [eV]:                                  -46391.96984417420754
+
+  Total energy [eV]:                                        -4679.65150811311105
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.98790965200263
+
+  outer SCF iter =    1 RMS gradient =   0.44E-06 energy =       -171.9740360425
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974036043256092
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00002523      -171.9740321971 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00001804      -171.9740332868 -1.09E-06
+     3 OT DIIS     0.15E+00    0.0     0.00000828      -171.9740344522 -1.17E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000295      -171.9740347665 -3.14E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000129      -171.9740348025 -3.60E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000074      -171.9740348098 -7.36E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41712.17089571646648
+  Core Hamiltonian energy [eV]:                             -7412.56133136233348
+  Two-electron integral energy [eV]:                       -77958.52207785045903
+  Electronic energy [eV]:                                  -46391.82237028756936
+
+  Total energy [eV]:                                        -4679.65147457109742
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.98868314926182
+
+  outer SCF iter =    1 RMS gradient =   0.74E-06 energy =       -171.9740348098
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974034812724540
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00004185      -171.9740244785 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00003013      -171.9740274858 -3.01E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001390      -171.9740307782 -3.29E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000466      -171.9740316671 -8.89E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000188      -171.9740317533 -8.62E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000089      -171.9740317676 -1.43E-08
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41712.00976858476497
+  Core Hamiltonian energy [eV]:                             -7412.53721112924268
+  Two-electron integral energy [eV]:                       -77958.24789848453656
+  Electronic energy [eV]:                                  -46391.66116037150641
+
+  Total energy [eV]:                                        -4679.65139178675145
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99059220178560
+
+  outer SCF iter =    1 RMS gradient =   0.89E-06 energy =       -171.9740317676
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974031771102318
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00007245      -171.9740028365 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00005198      -171.9740118374 -9.00E-06
+     3 OT DIIS     0.15E+00    0.0     0.00002391      -171.9740215829 -9.75E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000867      -171.9740242170 -2.63E-06
+     5 OT DIIS     0.15E+00    0.0     0.00000410      -171.9740245316 -3.15E-07
+     6 OT DIIS     0.15E+00    0.0     0.00000261      -171.9740246084 -7.68E-08
+     7 OT DIIS     0.15E+00    0.0     0.00000200      -171.9740246469 -3.85E-08
+     8 OT DIIS     0.15E+00    0.0     0.00000140      -171.9740246843 -3.73E-08
+     9 OT DIIS     0.15E+00    0.0     0.00000095      -171.9740247038 -1.95E-08
+
+  *** SCF run converged in     9 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41711.78478099668428
+  Core Hamiltonian energy [eV]:                             -7412.53721099371433
+  Two-electron integral energy [eV]:                       -77957.79753914791218
+  Electronic energy [eV]:                                  -46391.43598056767223
+
+  Total energy [eV]:                                        -4679.65119957099068
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99502480289318
+
+  outer SCF iter =    1 RMS gradient =   0.95E-06 energy =       -171.9740247038
+  outer SCF loop converged in   1 iterations or    9 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974024714423422
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00003583      -171.9740179225 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00002469      -171.9740200852 -2.16E-06
+     3 OT DIIS     0.15E+00    0.0     0.00001115      -171.9740221259 -2.04E-06
+     4 OT DIIS     0.15E+00    0.0     0.00000412      -171.9740226756 -5.50E-07
+     5 OT DIIS     0.15E+00    0.0     0.00000159      -171.9740227468 -7.12E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000072      -171.9740227570 -1.02E-08
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41711.82491582579678
+  Core Hamiltonian energy [eV]:                             -7412.56219319136198
+  Two-electron integral energy [eV]:                       -77957.82773846149212
+  Electronic energy [eV]:                                  -46391.47606242210895
+
+  Total energy [eV]:                                        -4679.65114659631308
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99624642806143
+
+  outer SCF iter =    1 RMS gradient =   0.72E-06 energy =       -171.9740227570
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974022759195577
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00001150      -171.9740228404 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00000702      -171.9740230521 -2.12E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000324      -171.9740231893 -1.37E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000174      -171.9740232334 -4.41E-08
+     5 OT DIIS     0.15E+00    0.0     0.00000108      -171.9740232500 -1.65E-08
+     6 OT DIIS     0.15E+00    0.0     0.00000075      -171.9740232578 -7.84E-09
+
+  *** SCF run converged in     6 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41711.96023736636562
+  Core Hamiltonian energy [eV]:                             -7412.58786815472922
+  Two-electron integral energy [eV]:                       -77958.04705887185992
+  Electronic energy [eV]:                                  -46391.61139759066282
+
+  Total energy [eV]:                                        -4679.65116022429629
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99593215929060
+
+  outer SCF iter =    1 RMS gradient =   0.75E-06 energy =       -171.9740232578
+  outer SCF loop converged in   1 iterations or    6 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974023262718902
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00001282      -171.9740217719 -1.72E+02
+     2 OT DIIS     0.15E+00    0.0     0.00000835      -171.9740220409 -2.69E-07
+     3 OT DIIS     0.15E+00    0.0     0.00000423      -171.9740222511 -2.10E-07
+     4 OT DIIS     0.15E+00    0.0     0.00000181      -171.9740223320 -8.09E-08
+     5 OT DIIS     0.15E+00    0.0     0.00000095      -171.9740223476 -1.56E-08
+
+  *** SCF run converged in     5 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41712.09337246897485
+  Core Hamiltonian energy [eV]:                             -7412.61080075990685
+  Two-electron integral energy [eV]:                       -77958.26741432968993
+  Electronic energy [eV]:                                  -46391.74450792474818
+
+  Total energy [eV]:                                        -4679.65113545577606
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99650333496916
+
+  outer SCF iter =    1 RMS gradient =   0.95E-06 energy =       -171.9740223476
+  outer SCF loop converged in   1 iterations or    5 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974022352322436
+
+
+ Number of electrons:                                                        164
+ Number of occupied orbitals:                                                 82
+ Number of molecular orbitals:                                                82
+
+ Number of orbital functions:                                                164
+ Number of independent orbital functions:                                    164
+
+ Extrapolation method: initial_guess
+
+
+ SCF WAVEFUNCTION OPTIMIZATION
+
+  ----------------------------------- OT ---------------------------------------
+
+  Allowing for rotations:  F
+  Optimizing orbital energies:  F
+  Minimizer      : DIIS                : direct inversion
+                                         in the iterative subspace
+                            using      : -   7 DIIS vectors
+                                         - safer DIIS on
+  Preconditioner : FULL_SINGLE_INVERSE : cholesky inversion of H + eS
+  Precond_solver : DEFAULT
+  stepsize       :    0.15000000
+  energy_gap     :    0.20000000
+
+  eps_taylor     :   0.10000E-15
+  max_taylor     :             4
+
+  mixed_precision    : F
+
+  ----------------------------------- OT ---------------------------------------
+
+  Step     Update method      Time    Convergence         Total energy    Change
+  ------------------------------------------------------------------------------
+     1 OT DIIS     0.15E+00    0.1     0.00000063      -171.9740223523 -1.72E+02
+
+  *** SCF run converged in     1 steps ***
+
+
+  Core-core repulsion energy [eV]:                          41712.09337246897485
+  Core Hamiltonian energy [eV]:                             -7412.61096814699704
+  Two-electron integral energy [eV]:                       -77958.26707981406071
+  Electronic energy [eV]:                                  -46391.74450805402739
+
+  Total energy [eV]:                                        -4679.65113558505709
+
+  Atomic reference energy [eV]:                              4684.16085030962222
+  Heat of formation [kcal/mol]:                               103.99650035368866
+
+  outer SCF iter =    1 RMS gradient =   0.63E-06 energy =       -171.9740223523
+  outer SCF loop converged in   1 iterations or    1 steps
+
+
+ ENERGY| Total FORCE_EVAL ( QS ) energy (a.u.):             -171.974022352323118
+

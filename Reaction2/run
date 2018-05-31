@@ -1,0 +1,24 @@
+#=== job name:
+#PBS -N suma
+#=== wall time limit (h:m:s)
+#PBS -l walltime=20:00:00
+#=== 10 nodes with 4 processors each
+#PBS -l nodes=2:ppn=2
+#PBS -q infinijazz
+#=== join stdout and stderr
+#PBS -j oe
+#======================================
+
+# set MKL libary path
+ulimit -s unlimited
+
+
+
+
+
+cd $PBS_O_WORKDIR
+
+export LD_LIBRARY_PATH=/home/libs/mkl/lib:"$LD_LIBRARY_PATH"
+#export LD_LIBRARY_PATH=/opt/intel/ict/3.0.1/cmkl/9.1/lib/em64t:/opt/intel/fce/10.0.026/lib/
+mpiexec -np 4  /home/pic127/EXEC/cp2k_teo.x -i neb.inp > out
+done

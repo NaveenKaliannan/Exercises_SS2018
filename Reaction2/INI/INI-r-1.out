@@ -1,0 +1,252 @@
+
+
+                      ************* ******** ***********   
+                     ************* **********************  
+                     ****     **** ****      ***********   
+                     ******** ****  *******     ****       
+                     *******  ****   *******   ****        
+                     ****     ****       ****  ****        
+                     ****     **** **********  ****        
+                      ****     **** ********    ****       
+                     FRONTIERS IN SIMULATION TECHNOLOGY    
+                                                           
+                        C.J. Mundy, S. Balasubramanian,    
+                     Ken Bagchi, J. Hutter, Ari Seitsonen  
+                      IFW Kuo, T. Laino, J. VandeVondele   
+                                 Version 1.0               
+
+                                                           
+
+ EWALD|                                                                 not used
+ GENERATE|  Preliminary Number of Bends generated:                             0
+ GENERATE|  Number of Bends generated:                                         0
+ GENERATE|  Number of UB generated:                                            0
+ GENERATE|  Preliminary Number of Torsions generated:                          0
+ GENERATE|  Number of Torsions generated:                                      0
+ GENERATE|  Number of Impropers generated:                                     0
+ GENERATE|  Number of 1-4 interactions generated:                              0
+ CHARGE_INFO| Total Charge of the Classical System:                     0.000000
+ 
+ FORCEFIELD| WARNING: A non Critical ForceField parameter is missing! CP2K GOES!
+ FORCEFIELD| Non critical parameters are:Urey-Bradley,Torsions,Impropers, Opbends and 1-4
+ FORCEFIELD| All missing parameters will not contribute to the potential energy!
+ FORCEFIELD| Activate the print key FF_INFO to have a list of missing parameters
+ 
+ SPLINE_INFO| Generating: 6 splines due to 3 different atomic kinds
+ ...1
+ ...2
+ ...3
+ ...4
+ ...5
+ ...6
+
+ SPLINE_INFO| Number of unique splines computed:      1
+ SPLINE_INFO| Done
+ SPLINE_INFO| Generating: 6 splines due to 3 different atomic kinds
+ ...1
+ ...2
+ ...3
+ ...4
+ ...5
+ ...6
+
+ SPLINE_INFO| Number of unique splines computed:      4
+ SPLINE_INFO| Done
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727605002111602
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727710548791720
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727621785114650
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727621880836637
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727611765311963
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727579652706993
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727525655909915
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727468479054437
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727425327937681
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727416600169704
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727407628507933
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727391472374052
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727384825817808
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727379250887793
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727372363204154
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727359772853220
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727358290729171
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727354364146663
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727342384559165
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727315875985823
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727284501760664
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727269546693663
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727229592114213
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727179078613062
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727161290127469
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727113298537461
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727088940031081
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727036367765436
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727064658525023
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727049231142360
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727047351600049
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727044266677751
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727031320765036
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727030878397613
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727020249971133
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.727008142502882
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726970152513900
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726963559262003
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726961773793903
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726951918569796
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726931075414996
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726916250540171
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726908964743131
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726901110832159
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726886947582557
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726886391271648
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726883841243307
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726878797823133
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726870201872202
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726860660830539
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726863565655549
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726864085289321
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726863507723408
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726861346684245
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726859350934092
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726860607234471
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726857936415286
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726857195003674
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726858550004863
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726860012418229
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726862848047631
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726868148232882
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726873342414535
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726877328353510
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726876748118741
+
+
+ ENERGY| Total FORCE_EVAL ( FIST ) energy (a.u.):           -360.726876748118741
+

@@ -1,0 +1,58 @@
+ 
+ GENERATE|  Preliminary Number of Bonds generated:                             0
+ GENERATE|  Achieved consistency in connectivity generation.
+ GENERATE|  Number of Bonds generated:                                         0
+ GENERATE|  Preliminary Number of Bends generated:                             0
+ GENERATE|  Number of Bends generated:                                         0
+ GENERATE|  Number of UB generated:                                            0
+ GENERATE|  Preliminary Number of Torsions generated:                          0
+ GENERATE|  Number of Torsions generated:                                      0
+ GENERATE|  Number of Impropers generated:                                     0
+ GENERATE|  Number of 1-4 interactions generated:                              0
+
+
+              #####   #####        # #     # ######  ######   #####  
+             #     # #     #      #  ##    # #     # #     # #     # 
+             #     # #           #   # #   # #     # #     # #     # 
+             #     #  #####     #    #  #  # #     # #     # #     # 
+             #   # #       #   #     #   # # #     # #     # #     # 
+             #    #  #     #  #      #    ## #     # #     # #     # 
+              #### #  #####  #       #     # ######  ######   #####  
+                                                                     
+                              T. Laino and J. Hutter                 
+                                                                     
+                                                                     
+
+ 
+ SEMIEMPIRICAL|                             Coulomb Integral cutoff/taper values
+ SEMIEMPIRICAL| Cutoff [a.u.]                                             37.795
+ SEMIEMPIRICAL| Taper  [a.u.]                                             37.795
+ SEMIEMPIRICAL| Range  [a.u.]                                              0.000
+ 
+ 
+ SEMIEMPIRICAL|                            Exchange Integral cutoff/taper values
+ SEMIEMPIRICAL| Cutoff [a.u.]                                             37.795
+ SEMIEMPIRICAL| Taper  [a.u.]                                             37.795
+ SEMIEMPIRICAL| Range  [a.u.]                                              0.000
+ 
+
+
+ SCF PARAMETERS         Density guess:                                   RESTART
+                        --------------------------------------------------------
+                        max_scf:                                              20
+                        max_scf_history:                                       0
+                        max_diis:                                              4
+                        --------------------------------------------------------
+                        eps_scf:                                        1.00E-06
+                        eps_scf_history:                                0.00E+00
+                        eps_diis:                                       1.00E-01
+                        eps_eigval:                                     1.00E-05
+                        --------------------------------------------------------
+                        level_shift [a.u.]:                                 0.00
+                        --------------------------------------------------------
+                        Outer loop SCF in use 
+                        No variables optimised in outer loop
+                        eps_scf                                         1.00E-06
+                        max_scf                                               10
+                        No outer loop optimization
+                        step_size                                       5.00E-01

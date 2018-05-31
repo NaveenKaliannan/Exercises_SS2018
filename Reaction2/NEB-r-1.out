@@ -1,0 +1,144 @@
+
+
+                      ************* ******** ***********   
+                     ************* **********************  
+                     ****     **** ****      ***********   
+                     ******** ****  *******     ****       
+                     *******  ****   *******   ****        
+                     ****     ****       ****  ****        
+                     ****     **** **********  ****        
+                      ****     **** ********    ****       
+                     FRONTIERS IN SIMULATION TECHNOLOGY    
+                                                           
+                        C.J. Mundy, S. Balasubramanian,    
+                     Ken Bagchi, J. Hutter, Ari Seitsonen  
+                      IFW Kuo, T. Laino, J. VandeVondele   
+                                 Version 1.0               
+
+                                                           
+
+ EWALD|                                                                 not used
+ GENERATE|  Preliminary Number of Bends generated:                             0
+ GENERATE|  Number of Bends generated:                                         0
+ GENERATE|  Number of UB generated:                                            0
+ GENERATE|  Preliminary Number of Torsions generated:                          0
+ GENERATE|  Number of Torsions generated:                                      0
+ GENERATE|  Number of Impropers generated:                                     0
+ GENERATE|  Number of 1-4 interactions generated:                              0
+ CHARGE_INFO| Total Charge of the Classical System:                     0.000000
+ 
+ FORCEFIELD| WARNING: A non Critical ForceField parameter is missing! CP2K GOES!
+ FORCEFIELD| Non critical parameters are:Urey-Bradley,Torsions,Impropers, Opbends and 1-4
+ FORCEFIELD| All missing parameters will not contribute to the potential energy!
+ FORCEFIELD| Activate the print key FF_INFO to have a list of missing parameters
+ 
+ SPLINE_INFO| Generating: 6 splines due to 3 different atomic kinds
+ ...1
+ ...2
+ ...3
+ ...4
+ ...5
+ ...6
+
+ SPLINE_INFO| Number of unique splines computed:      1
+ SPLINE_INFO| Done
+ SPLINE_INFO| Generating: 6 splines due to 3 different atomic kinds
+ ...1
+ ...2
+ ...3
+ ...4
+ ...5
+ ...6
+
+ SPLINE_INFO| Number of unique splines computed:      4
+ SPLINE_INFO| Done
+
+  **** **** ******  **  PROGRAM STARTED AT               2011-02-01 12:14:42.044
+ ***** ** ***  *** **   PROGRAM STARTED ON                               node048
+ **    ****   ******    PROGRAM STARTED BY                                      
+ ***** **    ** ** **   PROGRAM PROCESS ID                                 19481
+  **** **  *******  **  PROGRAM STARTED IN  /mnt/workspc/pic127/CP2KTUTORIAL/EX2
+
+ CP2K| version string:                 CP2K version 2.2.86 (Development Version)
+ CP2K| is freely available from                          http://cp2k.berlios.de/
+ CP2K| Program compiled at                          Wed Dec 29 17:45:42 CET 2010
+ CP2K| Program compiled on                                               node082
+ CP2K| Program compiled for                                   Linux-x86-64-intel
+ CP2K| Last CVS entry                                                           
+ CP2K| Input file name                                               NEB-r-1.inp
+ 
+ GLOBAL| Force Environment number                                              1
+ GLOBAL| Basis set file name                                           BASIS_SET
+ GLOBAL| Geminal file name                                         BASIS_GEMINAL
+ GLOBAL| Potential file name                                           POTENTIAL
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                            ./s.xyz
+ GLOBAL| Force Environment number                                              2
+ GLOBAL| Basis set file name                                           BASIS_SET
+ GLOBAL| Geminal file name                                         BASIS_GEMINAL
+ GLOBAL| Potential file name                                           POTENTIAL
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                            ./s.xyz
+ GLOBAL| Force Environment number                                              3
+ GLOBAL| Basis set file name                                           BASIS_SET
+ GLOBAL| Geminal file name                                         BASIS_GEMINAL
+ GLOBAL| Potential file name                                           POTENTIAL
+ GLOBAL| MM Potential file name                                     MM_POTENTIAL
+ GLOBAL| Coordinate file name                                            ./f.xyz
+ GLOBAL| Method name                                                        CP2K
+ GLOBAL| Project name                                                    NEB-r-1
+ GLOBAL| Preferred FFT library                                             FFTW3
+ GLOBAL| Run type                                                           BAND
+ GLOBAL| All-to-all communication in single precision                          F
+ GLOBAL| FFTs using library dependent lengths                                  F
+ GLOBAL| Global print level                                                  LOW
+ GLOBAL| Total number of message passing processes                             2
+ GLOBAL| Number of threads for this process                                    1
+ GLOBAL| This output is from process                                           0
+
+ MEMORY| system memory details [Kb]
+ MEMORY|                        rank 0           min           max       average
+ MEMORY| MemTotal                    0             0             0             0
+ MEMORY| MemFree                     0             0             0             0
+ MEMORY| Buffers                     0             0             0             0
+ MEMORY| Cached                      0             0             0             0
+ MEMORY| Slab                        0             0             0             0
+ MEMORY| SReclaimable                0             0             0             0
+ MEMORY| MemLikelyFree               0             0             0             0
+
+ MIXED_ENV| Number of created MPI groups:                                      2
+ MIXED_ENV| Task to group correspondence:
+  (   0 :    0)  (   1 :    1)
+          ----------------------------------------------------------------------
+ COLVARS| COLVAR INPUT INDEX:        1
+ COLVARS| BOND          >>> ATOMS:                                    49      50
+          ----------------------------------------------------------------------
+ GENERATE|  Preliminary Number of Bends generated:                             0
+ GENERATE|  Number of Bends generated:                                         0
+ GENERATE|  Number of UB generated:                                            0
+ GENERATE|  Preliminary Number of Torsions generated:                          0
+ GENERATE|  Number of Torsions generated:                                      0
+ GENERATE|  Number of Impropers generated:                                     0
+ GENERATE|  Number of 1-4 interactions generated:                              0
+
+ *******************************************************************************
+ **                  MAPPING OF BAND REPLICA TO REPLICA ENV                   **
+ *******************************************************************************
+ ** Replica Env Nr.:      1    working on the following BAND replicas         **
+ **                                                                           **
+ ** Band Replica   Nr.:      2 Output available on file: NEB-BAND02.out       **
+ ** Band Replica   Nr.:      4 Output available on file: NEB-BAND04.out       **
+ ** Band Replica   Nr.:      6 Output available on file: NEB-BAND06.out       **
+ ** Band Replica   Nr.:      8 Output available on file: NEB-BAND08.out       **
+ ** Band Replica   Nr.:     10 Output available on file: NEB-BAND10.out       **
+ ** Band Replica   Nr.:     12 Output available on file: NEB-BAND12.out       **
+ ** Band Replica   Nr.:     14 Output available on file: NEB-BAND14.out       **
+ **                                                                           **
+ *******************************************************************************
+
+
+  **** **** ******  **  PROGRAM ENDED AT                 2011-02-01 12:14:43.555
+ ***** ** ***  *** **   PROGRAM RAN ON                                   node048
+ **    ****   ******    PROGRAM RAN BY                                          
+ ***** **    ** ** **   PROGRAM PROCESS ID                                 19481
+  **** **  *******  **  PROGRAM STOPPED IN  /mnt/workspc/pic127/CP2KTUTORIAL/EX2
