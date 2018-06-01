@@ -108,7 +108,7 @@
    &END FORCEFIELD
    &POISSON
      &EWALD
-       EWALD_TYPE <.....>
+       EWALD_TYPE <.....>              !<--------------------------  Ewald type
      &END EWALD
    &END POISSON
   &END
@@ -128,7 +128,7 @@
   &DFT
     &QS
       METHOD PM6
-      EXTRAPOLATION <----->
+      EXTRAPOLATION <----->                !<--------------------------  extrpolation type
       &SE
         &COULOMB
           CUTOFF [angstrom] 20.0
@@ -163,14 +163,14 @@
       &END
     &END SCF
     &POISSON
-      PERIODIC <------->
-      POISSON_SOLVER <------------>
+      PERIODIC <------->                    !<--------------------------  Type of BCs
+      POISSON_SOLVER <------------>         !<--------------------------  Poisson solver
       &WAVELET
         SCF_TYPE 60
       &END
     &END POISSON
     &XC
-      &XC_FUNCTIONAL <----------->
+      &XC_FUNCTIONAL <----------->         !<--------------------------  functionals
       &END XC_FUNCTIONAL
     &END XC
 !   &PRINT
@@ -195,11 +195,11 @@
     &END
     &KIND H
       BASIS_SET TZV2P-MOLOPT-GTH
-      POTENTIAL GTH-<XC functionals>-q1
+      POTENTIAL GTH-<XC functionals>-q1  !<--------------------------  functionals
     &END KIND
     &KIND C
       BASIS_SET TZV2P-MOLOPT-GTH
-      POTENTIAL GTH-<XC functionals>-q4
+      POTENTIAL GTH-<XC functionals>-q4  !<--------------------------  functionals
     &END KIND
   &END SUBSYS
 &END FORCE_EVAL
