@@ -11,7 +11,7 @@
   &END
   &BAND
    NPROC_REP 1             
-   BAND_TYPE IT-<Band type>        
+   BAND_TYPE IT-<Band type>               !<--------------------------- type of BAND you want to use
    NUMBER_OF_REPLICA <number of replica>  !<--------------------------- number of replicas required     
     &OPTIMIZE_BAND         
       OPT_TYPE DIIS
@@ -66,27 +66,27 @@
       &NONBONDED
         &LENNARD-JONES
           atoms  Ar Ar
-          EPSILON    [K_e]   <>
-          SIGMA [angstrom]   <>
-          RCUT  [angstrom]   <>
+          EPSILON    [K_e]   <>         !<--------------------------- epsilon
+          SIGMA [angstrom]   <>         !<--------------------------- Sigma
+          RCUT  [angstrom]   <>         !<--------------------------- rcut value
         &END LENNARD-JONES
       &END NONBONDED
       &CHARGE
         ATOM Ar
-        CHARGE <>
+        CHARGE <>                       !<--------------------------- charge of argon atom
       &END CHARGE
     &END FORCEFIELD
     &POISSON
-    PERIODIC <>
+    PERIODIC <>                        !<--------------------------  which boundary condition is suitable for cluster simulation
       &EWALD
-        EWALD_TYPE <>
+        EWALD_TYPE <>                  !<--------------------------- Ewald summation for computing colomb potential
       &END EWALD
     &END POISSON
   &END MM
   &SUBSYS
     &CELL
     ABC [angstrom] 20 20 20
-      PERIODIC <>
+      PERIODIC <>                     !<--------------------------  which boundary condition is suitable for cluster simulation
    &END CELL
    &COORD      ! repeat starting configuration here again  
 Ar        -0.0000000000        0.0000000000       -0.0000000000
